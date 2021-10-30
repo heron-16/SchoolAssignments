@@ -38,6 +38,7 @@ void EquationLine (int x1, int y1, int x2, int y2, float m){
 
 }
 
+// Middle point of the segment joining the two points
 void MidPoint(int x1, int y1, int x2, int y2, float &xpm, float &ypm){
     xpm = float((x1 + x2)) / 2;
     ypm = float((y1 + y2)) / 2;
